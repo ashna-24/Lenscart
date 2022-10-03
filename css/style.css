@@ -1,0 +1,49 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+  font-family: arial,sans-serif;
+}
+
+.header{
+  display: flex;
+  font-size:12px;
+  margin-top: 8px;
+  font-family: lenskartsans-regular;
+}
+
+.more{
+  padding-right:8px;
+}
+
+.top{
+  border-left: 1px solid black;
+  padding: 0px 8px;
+}
+
+.head, .search, .headRight{
+  display: flex;
+}
+
+.search img{
+  max-width:140px;
+  margin:0px 20px 0px 100px;
+}
+
+.search input{
+  margin:15px 0px;
+  width:500px;
+}
+
+.headRight{
+  margin: 25px 0px 0px 90px;
+  font-size: 14px;
+}
+
+.headRight p{
+  margin-right:10px;
+}
+
+
