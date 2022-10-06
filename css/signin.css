@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.display_flex{
+  display: flex;
+}  
+
+.content{
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 5px;
+  width: 710px;
+}
+
+.Signup{
+  padding: 20px;
+}
+
+.input[type="text"], button{
+  width: 300px;
+} 
+
+.checkbox img{
+  width: 25px;
+}

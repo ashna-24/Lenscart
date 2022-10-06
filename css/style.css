@@ -16,9 +16,15 @@ body{
   display:flex;
 }
 
+.lenskart{
+  background-color: white;
+  position: fixed;
+  z-index: 1; 
+}
+
 .header{
   font-size:12px;
-  color: navy;
+  color: rgb(0, 0, 77);
   margin-top: 8px;
 }
 
@@ -50,16 +56,22 @@ body{
   padding-left: 10px;
   border-radius: 4px;
   border-width: 1px;
-  border-color: navy;
+  border-color: rgb(0, 0, 77);
 }
 
 .headRight{
-  margin: 25px 0px 0px 68px;
+  margin: 25px 0px 0px 65px;
   font-size: 14px;
 }
 
 .headRight p{
   margin-right:10px;
+  cursor: pointer;
+}
+
+.headRight a{
+  text-decoration: none;
+  color: black;
 }
 
 .headRight img{
@@ -81,7 +93,7 @@ body{
 .left p{
   font-size: 15px;
   padding:10px;
-  color:navy;
+  color:rgb(0, 0, 77);
 }
 
 .right{
@@ -96,6 +108,7 @@ body{
 }
 
 .main{
+  padding-top:148px;
   background-color:rgb(242, 242, 242);
 }
 
@@ -177,12 +190,404 @@ body{
   background-color: rgb(50, 168, 178);
 }
 
-.text p{
-  margin: 20px 0px;
+.text1 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
 }
+
+.text1 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:395px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text1 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:395px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
 
 .imgThree img{
   width: 1060px;
-  margin:20px 0px 0px 110px;
+  margin:35px 0px 80px 128px;
 }
 
+.text2 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text2 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:445px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text2 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:445px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgFour{
+  margin: 40px 0px 0px 125px;
+}
+
+.eye-square{
+  margin-right:16px;
+}
+
+.eye-square img{
+  width:530px;
+}
+
+.cesqr{
+  margin-top:16px;
+}
+
+.ce-square img{
+  width: 522px;
+}
+
+.imgFive{
+  margin: 13px 0px 0px 125px;
+}
+
+.eye-square1{
+  margin-right:14px;
+}
+
+.eye-square1 img{
+  width:530px;
+}
+
+.tile{
+  margin-left:0px;
+}
+
+.text3{
+ margin-top: 70px;
+}
+
+.text3 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text3 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:275px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text3 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:275px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgSix{
+  margin:30px 0px 0px 120px;
+}
+
+.imgSix img{
+  width:1075px;
+}
+
+.text4{
+ margin-top: 70px;
+}
+
+.text4 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text4 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:415px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text4 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:415px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgSeven{
+  margin:30px 0px 0px 125px;
+}
+
+.imgSeven img{
+  width:522px;
+  padding: 10px;
+}
+
+.text5{
+ margin-top: 70px;
+}
+
+.text5 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text5 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:480px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text5 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:480px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgEight{
+  margin: 20px 0px 0px 55px;
+}
+
+.imgEight img{
+  width:600px;
+  padding: 5px;
+}
+
+.text6{
+ margin-top: 70px;
+}
+
+.text6 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text6 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:510px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text6 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:510px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgNine{
+  margin-top: 30px;
+}
+
+.imgNine img{
+  width:1330px;
+}
+
+.text7{
+ margin-top: 70px;
+}
+
+.text7 h4{
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+
+.text7 h4:before{
+  content: "";
+  position: absolute;
+  display: block;
+  width:525px;
+  height:1px;
+  left: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.text7 h4:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width:525px;
+  height:1px;
+  right: 50px;
+  top: 20px;
+  background: rgb(179, 179, 179);
+} 
+
+.imgTen{
+  margin: 30px 0px 30px 120px;
+}
+
+.imgTen img{
+  width:1075px;
+}
+
+.bottom{
+  width: 1330px;
+  background-color:rgb(0, 0, 77);
+}
+
+.bottommsg{
+  color: rgb(252, 252, 252);
+  font-size: 30px;
+  padding: 40px 0px 30px 50px;
+}
+
+.bottommsg1{
+  color:rgb(252, 252, 252);
+  margin-left: 50px;
+  font-size: 15px;
+  padding: 0px 50px 20px 0px;
+  text-align: justify;
+}
+
+.bottommsg1 a{
+  text-decoration: none;
+  cursor:pointer;
+  color:rgb(50,156,146);
+}
+
+.bottommid{
+  margin-left:50px;
+}
+
+.sun, .eye, .contact{
+  color: rgb(252, 252, 252);
+  margin: 20px 35px 50px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.sun p{
+  padding-right:260px;
+}
+
+.eye p{
+ padding-right: 266px;
+}
+
+.contact p{
+  padding-right: 240px;
+}
+
+.bottomcenter{
+  margin-left:50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(252, 252, 252); 
+}
+
+.services{
+  color: rgb(252, 252, 252);
+  margin-right: 150px;
+}
+
+.servicetop{
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+.services p{
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.sitesimg{
+  margin-left:255px;
+}
+
+.sites p{
+  color:rgb(252, 252, 252);
+  text-align: center;
+  margin: 20px 0px 0px 244px;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.footer{
+  color: rgb(252, 252, 252);
+  margin: 25px 0px 0px 50px;
+  font-size:14px;
+  padding-bottom: 20px;
+}
+
+.footer p{
+  padding-right:43px;
+}
+
+.follow{
+  margin-left: 675px;
+  font-size: 18px;
+  padding: 4px 3px 6px 3px;
+}
+
+.follow img{
+  padding-left:12px;
+}
