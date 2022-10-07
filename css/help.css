@@ -1,0 +1,126 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+  font-family: myFont;
+}
+
+@font-face{
+  font-family:myFont;
+  src: url("../assets/font/Aileron-Regular.otf");
+}
+
+.display_flex{
+  display:flex;
+}
+
+.lenskart{
+  background-color: white;
+  position: fixed;
+  z-index: 1; 
+  width: 1350px;
+}
+
+.header{
+  font-size:12px;
+  color: rgb(0, 0, 77);
+  margin-top: 8px;
+}
+
+.more{
+  padding-right:8px;
+}
+
+.top{
+  border-left: 1px solid black;
+  padding: 0px 8px;
+}
+
+.logo{
+  margin-left:15px;
+}
+
+.logo img{
+  max-width:180px;
+}
+
+.search img{
+  max-width:130px;
+  margin:0px 20px 0px 50px;
+}
+
+.search input{
+  margin:15px 0px;
+  width:575px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgb(0, 0, 77);
+}
+
+.headRight{
+  margin: 25px 0px 0px 65px;
+  font-size: 14px;
+}
+
+.headRight p{
+  margin-right:10px;
+  cursor: pointer;
+}
+
+.headRight a{
+  text-decoration: none;
+  color: black;
+}
+
+.headRight img{
+  max-width: 15px;
+}
+
+.headRight span{
+  margin-left:5px;
+}
+
+.headBottom{
+ background-color:rgb(253, 251, 250);
+}
+
+.left{
+  padding:12px;
+}
+
+.left p{
+  font-size: 15px;
+  padding:10px;
+  color:rgb(0, 0, 77);
+}
+
+.right{
+  padding:15px;
+  margin-left:75px;
+}
+
+.right img{
+  width:69px;
+  border-radius:5px;
+  margin-right:3px;
+}
+
+.main{
+  padding-top:148px;
+  background-color:rgb(242, 242, 242);
+}
+
+.helpimg img{
+  width: 1330px;
+}
+
+.head p{
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(26, 13,0);
+}
