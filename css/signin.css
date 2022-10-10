@@ -81,6 +81,7 @@ button{
   color: white;
   background-color:rgb(50, 156, 146);
   border: none;
+  cursor: pointer;
 }
 
 .upsign{

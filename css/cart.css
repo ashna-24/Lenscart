@@ -1,0 +1,173 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+  font-family: myFont;
+}
+
+@font-face{
+  font-family:myFont;
+  src: url("../assets/font/Aileron-Regular.otf");
+}
+
+.display_flex{
+  display: flex;
+}
+
+body{
+  background-image: url("../assets/cartbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main{
+  position: relative;
+}
+
+.head{
+  background-color:rgb(75, 76, 81);
+  position: absolute;
+  right:16px;
+  top:140px;
+  width: 790px;
+}
+  
+.head_text{
+  padding: 15px;
+}
+
+.text h2{
+  padding-left: 105px;
+  text-shodow: 1px 1px rgb(0 0 0 /25%);
+  font-family: Times new roman;
+  position: relative;
+  font-size: 15px;
+}
+
+.text h2:before{
+  content:"";
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 1px;
+  left: 20px;
+  top: 10px;
+  background: rgb(179, 179, 179)
+}
+
+.text h2:after{
+  content:"";
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 1px;
+  right: 425px;
+  top: 10px;
+  background: rgb(179, 179, 179)
+}
+
+.close{
+  position: absolute;
+  right:40px;
+  top: 12px;
+}
+
+.title{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.lists{
+  background-color: white;
+  color: slategray;
+  margin:0px 0px 8px 8px;
+}
+
+.cart1{
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.crglass{
+  width: 150px;
+  padding: 5px;
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+.crglass p{
+  font-size: 12px;
+  text-align: center;
+}
+
+.glass1 img{
+  padding: 5px;
+}
+
+.glass1 span{
+  padding-top: 28px;
+}
+
+.first{
+  padding-left: 8px;
+  width: 26px;
+}
+
+.first img{
+  border: 1px solid rgb(230, 230, 230);
+  padding: 2px;
+  margin: 5px 2px 0px 5px;
+  border-radius: 50px;
+}
+
+.one{
+  border: 1px solid slategray;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.close1{
+  position: absolute;
+  right:20px;
+  top: 50px;
+}
+
+.title1{
+  font-size: 18px;
+  color: slategray;
+  text-decoration: none;
+}  
+
+.details{
+  padding: 25px 0px 0px 35px;
+}
+
+.total{
+  margin-left: 345px;
+}
+
+.price{
+  font-size: 13px;
+}
+
+.total{
+  margin-left: 345px;
+}
+
+.rupees{
+  padding-top: 3px;
+}
+
+.rs1{
+  font-size: 13px;
+}
+
+.rs2{
+  margin-left: 368px;
+}
+
+.rs3{
+  margin-left: 42px;
+  font-size: 12px;
+}

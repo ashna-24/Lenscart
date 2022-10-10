@@ -64,7 +64,16 @@ body{
   font-size: 14px;
 }
 
-.headRight p{
+.arrow{
+  padding-bottom:18px;
+  margin-right: 10px;
+}
+
+.name{
+  margin-right:0px;
+}
+
+.order{
   margin-right:10px;
   cursor: pointer;
 }
@@ -216,7 +225,7 @@ body{
   right: 50px;
   top: 20px;
   background: rgb(179, 179, 179);
-}
+} 
 
 .imgThree img{
   width: 1060px;
