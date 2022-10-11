@@ -17,6 +17,7 @@ body{
 }
 
 .lenskart{
+  width: 1350px;
   background-color: white;
   position: fixed;
   z-index: 1; 
@@ -35,6 +36,10 @@ body{
 .top{
   border-left: 1px solid black;
   padding: 0px 8px;
+}
+
+.head{
+  padding: 10px 0px 0px 7px;
 }
 
 .logo{
@@ -74,8 +79,27 @@ body{
 }
 
 .order{
-  margin-right:10px;
+  margin-right:25px;
   cursor: pointer;
+}
+
+.order1{
+  position: relative;
+}
+
+.num{
+  position: absolute;
+  left: 10px;
+  bottom: 28px;
+  border-radius: 50px;
+  color: white;
+  padding: 1px 5px;
+  background-color: rgb(50, 156, 146);
+  font-size:smaller;
+}
+
+.cart2{
+  margin-left: 7px;
 }
 
 .headRight a{
@@ -84,10 +108,10 @@ body{
 }
 
 .headRight img{
-  max-width: 15px;
+  max-width: 16px;
 }
 
-.headRight span{
+.cart1{
   margin-left:5px;
 }
 
@@ -107,7 +131,7 @@ body{
 
 .right{
   padding:15px;
-  margin-left:75px;
+  margin-left:85px;
 }
 
 .right img{
@@ -117,7 +141,8 @@ body{
 }
 
 .main{
-  padding-top:148px;
+  padding-top:158px;
+  overflow-y: scroll;
   background-color:rgb(242, 242, 242);
 }
 

@@ -30,7 +30,7 @@ body{
   background-color:rgb(75, 76, 81);
   position: absolute;
   right:16px;
-  top:140px;
+  top: 90px;
   width: 790px;
 }
   
@@ -83,7 +83,7 @@ body{
 .lists{
   background-color: white;
   color: slategray;
-  margin:0px 0px 8px 8px;
+  margin:0px 0px 6px 6px;
 }
 
 .cart1{
@@ -156,27 +156,229 @@ body{
 }
 
 .rupees{
-  padding-top: 3px;
+  position: relative;
 }
 
 .rs1{
   font-size: 13px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
 }
 
 .rs2{
-  margin-left: 368px;
+  position: absolute;
+  right: 100px;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .rs3{
-  margin-left: 42px;
+  position: absolute;
+  top: 4px;
+  right: 20px;
   font-size: 12px;
 }
 
 .sell{
   font-style: italic;
-  font-size: 14px;
-  padding-top: 5px;
+  font-size: 13px;
+  padding-top: 35px;
   text-align: center;
 }
 
+.close2{
+  position: absolute;
+  right:20px;
+  top: 180px;
+}
 
+.title2{
+  font-size: 18px;
+  color: slategray;
+  text-decoration: none;
+}  
+
+.lens{
+  margin-left: 120px;
+}
+
+.sub{
+  margin-left: 150px
+}
+
+.rs4{
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  text-decoration: line-through;
+}
+
+.rs5{
+  position: absolute;
+  left: 100px;
+  top: 5px;
+  font-size: 26px;
+  font-weight: bold;
+}  
+
+.rs6{
+  position: absolute;
+  left: 120px;
+  top: 4px;
+  font-size: 13px;
+  color: darkslategray;
+  font-weight: 900;
+}
+
+.rs7{
+  position: absolute;
+  right: 155px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.rs8{
+  position: absolute;
+  right: 100px;
+  top: 0px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.rs9{
+  position: absolute;
+  right: 13px;
+  top:0px;
+  font-size: 12px;
+}
+
+.overall{
+  padding: 25px 0px 0px 20px;
+}
+
+.rs{
+  font-size: 14px;
+}
+
+.selling{
+  font-style: italic;
+  font-size: 13px;
+  text-align: center;
+}
+
+.cart2{
+  padding: 10px 0px 10px 20px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.total_price{
+  position: relative;
+  font-size: 14px;
+}
+
+.amount{
+  position: absolute;
+}
+
+.net_amount{
+  position: absolute;
+  left: 158px;
+}
+
+.tax{
+  position: absolute;
+  right: 275px;
+}
+
+.total_price img{
+  position: absolute;
+  right: 253px;
+}
+
+.fees{
+  position: absolute;
+  right: 50px;
+}
+
+.calculation{
+  position: relative;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.equal{
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.second{
+  position: absolute;
+  left: 175px;
+}
+
+.plus{
+  position: absolute;
+  left: 275px;
+  top: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.third{
+  position: absolute;
+  right: 300px;
+}
+
+.add{
+  position: absolute;
+  right: 225px;
+  top: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.free{
+  position: absolute;
+  right: 90px;
+}
+
+.order{
+  width: 391px;
+  padding: 15px;
+  font-size: 21px;
+  align-items: center;
+  justify-content: center;
+}
+
+.value{
+  color:rgb(232, 121, 42);
+  padding-left: 5px;
+} 
+
+.proceed{
+    background-color: rgb(232, 121, 42);
+    width: 391px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.proceed p{
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.proceed a{
+   color: white;
+   text-decoration: none;
+}
+
+.proceed img{
+  padding-left: 5px;
+  max-width: 19px;
+}

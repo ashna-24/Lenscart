@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout Page</title>
+        <link rel="stylesheet" href="css/checkout.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                 <img src="assets/checkout_logo.webp" alt="not found">
+            </div>
+            <div class="top">
+            </div>
+            <div class="logged">
+                <p>Logged in as <b>ashnafrajan@gmail.com</b><a href="index.html">Logout</a></p>
+            </div>
+            <div class="address">
+                <p>Shipping Address</p>
+            </div>
+         
+            <div class="form">
+                <form action="" method="post" autocomplete="off">
+                    <button type="submit" value="continue" class="continue">CONTINUE</button>
+                    <div class="name">
+                         <input type="text" name="" placeholder="First Name*" class="uname">
+                         <input type="text" name="" placeholder="Last Name*" class="uname">
+                    </div>
+                    <div class="gender display_flex">
+                         <label class="gndr">Gender*</label>
+                         <div class="gen">
+                            <input type="radio" name="gender" checked>
+                            <label class="male">Male</label>
+                            <input type="radio" name="gender">
+                            <label class="female">Female</label>
+                         </div>
+                    </div> 
+                    <div class="number display_flex">
+                         <fieldset class="mobile">
+                             <legend>Mobile*</legend>
+                             <input type="tel" value="" placeholder="Mobile" class="contact">
+                         </fieldset>
+                         <fieldset class="mail">
+                             <legend>Email*</legend>
+                             <input type="email" value="" placeholder="Email" class="contact">
+                         </fieldset>
+                    </div>
+                    <div class="line display_flex">
+                         <span>
+                              <input type="text" name="" value="" placeholder="Address Line 1*" class="address_line">
+                              <p>House/Flat Number</p>
+                         </span>
+                         <span>
+                              <input type="text" name="" value="" placeholder="Address Line 2" class="address_line">
+                              <p>Area, Street & Landmark</p>
+                         </span>
+                    </div> 
+                    <div>
+                         <input type="text" name="" placeholder="Zip/Postal Code*" class="select">
+                         <input type="text" name="" placeholder="City / District*" class="select">
+                    </div> 
+                    <div> 
+                         <fieldset class="country">
+                              <legend>Country</legent>
+                              <select class="states">
+                                  <option>India</option>
+                                  <option>Andoora</option>
+                                  <option>UAE</option>
+                                  <option>Belgium</option>
+                                  <option>Brazil</option>
+                                  <option>Canada</option>
+                                  <option>China</option>
+                                  <option>Fiji</option>
+                                  <option>France</option>
+                                  <option>Iraq</option>
+                                  <option>Japan</option>
+                                  <option>Kuwait</option>
+                              </select>
+                         </fieldset>
+                    </div>                 
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

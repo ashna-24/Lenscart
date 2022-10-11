@@ -1,0 +1,155 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+  font-family: myFont;
+}
+
+@font-face{
+  font-family:myFont;
+  src: url("../assets/font/Aileron-Regular.otf");
+}
+
+.display_flex{
+  display:flex;
+}
+
+.main{
+  width: 1350px;
+}
+
+.header{
+  background-color:  rgb(26, 13,0);
+  padding: 2px;
+}
+
+.header img{
+  max-width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logged{
+  border: 1px dashed rgb(153, 153, 153);
+  background-color: rgb(245, 255, 247);
+  margin-left: 125px;
+  font-size: 13px;
+  width: 675px;
+  padding: 10px;
+}
+
+.logged b{
+  padding-left: 3px;
+}
+
+.logged a{
+  text-decoration: none;
+  padding-left: 5px;
+  color: cadetblue;
+}
+
+.address{
+  background-color: rgb(50, 156, 146);
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+  width: 682px;
+  margin: 10px 0px 30px 125px;
+}
+
+.mobile, .mail, .country{
+  width: 200px;
+}
+
+.form{
+  width: 695px;
+  margin-left: 125px;
+}
+
+form{
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 8px;
+  padding: 35px;
+}
+
+.continue{
+  padding: 15px 35px;
+  margin: 0px 24px 20px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 185, 198);
+  color: white;
+  float: right;
+}
+
+.name{
+  clear: both;
+}
+
+.uname{
+  padding: 15px;
+  margin:0px 7px 20px 0px;
+  border-radius: 5px;
+  border-color: rgb( 153, 153, 153);
+  border-width: 1px;
+  width: 270px;
+}
+
+.gender{
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.gndr{
+  margin-right: 30px;
+}
+
+input[type=radio]{
+  margin-right:8px;
+}
+
+.male{
+  margin-right: 30px;
+}
+
+.number{
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.mobile{
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact{
+  width: 278px;
+  padding: 10px;
+  border: transparent;
+}
+
+.mail{
+  border-radius: 5px;
+}
+  
+.address_line{
+  padding: 15px;
+  margin-right:7px;
+  border-radius: 5px;
+  border-color: rgb( 153, 153, 153);
+  border-width: 1px;
+  width: 270px;
+}
+
+.select{
+  padding: 15px;
+  margin-right:7px;
+  border-radius: 5px;
+  border-color: rgb( 153, 153, 153);
+  border-width: 1px;
+  width: 270px;
+}  
+
