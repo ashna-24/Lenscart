@@ -20,8 +20,12 @@ body{
   width: 1350px;
 }
 
+::placeholder{
+  color: rgb(128, 128, 128);
+}
+
 .header{
-  background-color:  rgb(26, 13,0);
+  background-color:rgb(29, 22, 22);
   padding: 2px;
 }
 
@@ -32,12 +36,85 @@ body{
   margin-right: auto;
 }
 
+.head{
+  margin:10px 0px 25px 140px;
+}
+
+.phone{
+  background-color: gainsboro;
+  padding: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.phone:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  border-top: 20px solid gainsboro;
+  border-left: 15px solid white;
+  border-bottom: 20px solid gainsboro;
+}
+
+.phone:before{
+  position: absolute;
+  content:"";
+  top:0;
+  right:0;
+  border-top: 21px solid white;
+  border-bottom: 21px solid white;
+  border-left: 15px solid gainsboro;
+}
+
+.add{
+  background-color: rgb(41, 36, 37);
+  padding: 10px;
+  width: 200px;
+  position: relative;
+}  
+
+.add:after{
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  border-top: 20px solid rgb(41, 36, 37);
+  border-left: 15px solid white;
+  border-bottom: 20px solid rgb(41, 36, 37);
+}
+
+.add:before{
+  position: absolute;
+  content:"";
+  top:0;
+  right:0;
+  border-top: 21px solid white;
+  border-bottom: 21px solid white;
+  border-left: 15px solid rgb(41, 36, 37);
+}
+
+.circle{
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 1px 7px;
+  background-color: white;
+  color:rgb(102, 102, 102);
+}
+
+.head p{
+  color: white;
+  font-size: 13px;
+  padding: 3px;
+}
+
 .logged{
   border: 1px dashed rgb(153, 153, 153);
   background-color: rgb(245, 255, 247);
   margin-left: 125px;
   font-size: 13px;
-  width: 675px;
+  width: 680px;
   padding: 10px;
 }
 
@@ -56,47 +133,52 @@ body{
   padding: 8px;
   font-size: 14px;
   color: white;
-  width: 682px;
+  width: 686px;
   margin: 10px 0px 30px 125px;
 }
 
-.mobile, .mail, .country{
-  width: 200px;
-}
-
 .form{
-  width: 695px;
-  margin-left: 125px;
+  width: 702px;
+  margin: 0px 0px 50px 125px;
 }
 
 form{
   border: 1px solid rgb(153, 153, 153);
   border-radius: 8px;
-  padding: 35px;
+  padding: 35px 20px 35px 35px;
 }
 
 .continue{
   padding: 15px 35px;
-  margin: 0px 24px 20px 0px;
+  margin: 0px 24px 15px 0px;
   border-radius: 5px;
   border: none;
-  background-color: rgb(0, 185, 198);
+  background-color: rgb(0, 167, 179);
   color: white;
   float: right;
 }
 
 .name{
   clear: both;
+  margin-bottom: 20px;
 }
 
-.uname{
+.uname1{
   padding: 15px;
-  margin:0px 7px 20px 0px;
-  border-radius: 5px;
-  border-color: rgb( 153, 153, 153);
-  border-width: 1px;
-  width: 270px;
+  margin-right:10px;
+  border-radius: 4px;
+  border-color: #d3d3d3;
+  border-width: 2px;
+  width: 280px;
 }
+
+.uname2{
+  padding: 15px;
+  border-radius: 4px;
+  border-color: #d3d3d3;
+  border-width: 2px;
+  width: 280px;
+} 
 
 .gender{
   font-size: 13px;
@@ -105,14 +187,21 @@ form{
 
 .gndr{
   margin-right: 30px;
+  color:rgb(128, 128, 128);
+  font-weight: bold; 
 }
 
 input[type=radio]{
-  margin-right:8px;
+  margin-right:8px; 
 }
 
 .male{
   margin-right: 30px;
+  color:rgb(166, 166, 166);
+}
+
+.female{
+  color: rgb(166, 166, 166);
 }
 
 .number{
@@ -121,8 +210,15 @@ input[type=radio]{
 }
 
 .mobile{
+  width: 311px;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 12px;
+}
+
+.mobile legend, .mail legend, .country legend, .province_state legend{
+  margin-left: 10px;
+  padding: 0px 4px;
+  color: rgb(179, 175, 179);
 }
 
 .contact{
@@ -132,24 +228,246 @@ input[type=radio]{
 }
 
 .mail{
+  width: 309px;
   border-radius: 5px;
 }
   
 .address_line{
   padding: 15px;
-  margin-right:7px;
-  border-radius: 5px;
-  border-color: rgb( 153, 153, 153);
-  border-width: 1px;
-  width: 270px;
+  margin-right:12px;
+  border-radius: 4px;
+  border-color: rgb(179, 175, 179);
+  border-width: 2px;
+  width: 281px;
 }
 
-.select{
+.line{
+  margin-bottom: 30px;
+}
+
+.line p{
+  font-size: 10px;
+  margin-left: 5px;
+  color: rgb(179, 175, 179);
+}
+
+.zip{
+  margin-bottom: 20px;
+}
+
+.select1{
   padding: 15px;
-  margin-right:7px;
+  margin-right:9px;
+  border-radius: 4px;
+  border-color: #d3d3d3;
+  border-width: 2px;
+  width: 280px;
+} 
+
+.select2{
+  padding: 15px;
+  border-radius: 4px;
+  border-color: #d3d3d3;
+  border-width: 2px;
+  width: 280px;
+}   
+
+.province{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.country{
+  width: 311px;
   border-radius: 5px;
-  border-color: rgb( 153, 153, 153);
-  border-width: 1px;
-  width: 270px;
+}
+
+.states{
+  padding: 15px 10px;
+  width: 305px;
+  border: transparent;
+  border-color: white;
+}
+
+.province_state{
+  width: 311px;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+.show{
+  color:#d3d3d3;
+}
+
+.submit{
+  padding: 15px 35px;
+  margin: 20px 20px 0px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 185, 198);
+  color: white;
+  float: right;
+}
+
+fieldset{
+  border-color:#d3d3d3;
+  border-width: 2px;
+}
+
+.float{
+  clear: both;
+}
+
+.shopping_cart{
+  border: 1px solid gainsboro;
+  width: 375px;
+  height: 595px;
+  margin: 10px 0px 0px 15px;
+}
+
+.cart_top{
+  background-color:rgb(41, 36, 37);
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+  position: relative;
+}
+
+.top{
+  position: absolute;
+  right: 10px;
+}
+
+.item1, .item2{
+  border-bottom: 1px solid gainsboro;
+}
+
+.itm{
+  position: relative;
+}
+
+.itm img{
+  padding: 15px 15px 10px 15px;
+}
+
+.qty{
+  position: absolute;
+  left: 170px;
+  top: 15px;
+}
+
+.first{
+  padding-top: 5px;
+}
+
+.one{
+  border: 1px solid gainsboro;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+  
+
+.first img{
+  padding: 6px;
+ }
+
+.close{
+  position: absolute;
+  right:15px;
+  top: 20px;
+}
+
+.title{
+  font-size: 18px;
+  color: slategray;
+  text-decoration: none;
 }  
 
+.text{
+  text-align: center;
+}
+
+.price{
+  position: relative;
+  color: rgb(75, 76, 81);
+  font-size: 13px;
+  margin: 0px 0px 5px 15px;
+}
+
+.rupee{
+  position: absolute;
+  left: 186px;
+}
+
+.rs{
+  text-decoration: line-through;
+  position: absolute;
+  right: 125px;
+}
+
+.rupees{
+  position: absolute;
+  right: 50px;
+}
+
+.package{
+  position: relative;
+  padding:15px 10px;
+  color: rgb(75, 76, 81);
+}
+
+.lens_package{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.zero{
+  position: absolute;
+  right: 70px;
+  font-size: 14px;
+}
+
+.bluecut{
+  font-size:10px;
+}
+
+.image img{
+  width: 375px;
+  display: table-header-group;
+}
+
+.order{
+  background-color: rgb(239, 239, 239);
+  font-size: 14px;
+}
+
+.total{
+  padding: 10px;
+  position: relative;
+  border-bottom: 2px solid gainsboro;
+}
+
+.sub_total, .amount{
+  border-bottom: 1px dashed gainsboro;
+  padding: 6px;
+}
+
+.tax{
+  padding: 6px 6px 4px 6px;
+}
+
+.cost{
+  position: absolute;
+  right: 10px;
+}
+
+.order_total{
+  position: relative;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.order_cost{
+  position: absolute;
+  right: 10px;
+} 

@@ -10,78 +10,205 @@
     <body>
         <div class="main">
             <div class="header">
-                 <img src="assets/checkout_logo.webp" alt="not found">
+                <img src="assets/checkout_logo.webp" alt="not found">
             </div>
-            <div class="top">
-            </div>
-            <div class="logged">
-                <p>Logged in as <b>ashnafrajan@gmail.com</b><a href="index.html">Logout</a></p>
-            </div>
-            <div class="address">
-                <p>Shipping Address</p>
-            </div>
-         
-            <div class="form">
-                <form action="" method="post" autocomplete="off">
-                    <button type="submit" value="continue" class="continue">CONTINUE</button>
-                    <div class="name">
-                         <input type="text" name="" placeholder="First Name*" class="uname">
-                         <input type="text" name="" placeholder="Last Name*" class="uname">
+            <div class="All display_flex">
+                <div class="content">
+                    <div class="head display_flex">
+                        <div class="phone display_flex">
+                            <span class="circle">1</span><p>Mobile</p>
+                        </div>
+                       <div class="add display_flex">
+                            <span class="circle">2</span><p>Shipping Address</p>
+                        </div> 
+                        <div class="phone display_flex">
+                            <span class="circle">3</span><p>Payment & Discount</p>
+                        </div>
                     </div>
-                    <div class="gender display_flex">
-                         <label class="gndr">Gender*</label>
-                         <div class="gen">
-                            <input type="radio" name="gender" checked>
-                            <label class="male">Male</label>
-                            <input type="radio" name="gender">
-                            <label class="female">Female</label>
-                         </div>
-                    </div> 
-                    <div class="number display_flex">
-                         <fieldset class="mobile">
-                             <legend>Mobile*</legend>
-                             <input type="tel" value="" placeholder="Mobile" class="contact">
-                         </fieldset>
-                         <fieldset class="mail">
-                             <legend>Email*</legend>
-                             <input type="email" value="" placeholder="Email" class="contact">
-                         </fieldset>
+                    <div class="logged">
+                        <p>
+                            Logged in as <b>ashnafrajan@gmail.com</b>
+                            <a href="index.html">Logout</a>
+                        </p>
                     </div>
-                    <div class="line display_flex">
-                         <span>
-                              <input type="text" name="" value="" placeholder="Address Line 1*" class="address_line">
-                              <p>House/Flat Number</p>
-                         </span>
-                         <span>
-                              <input type="text" name="" value="" placeholder="Address Line 2" class="address_line">
-                              <p>Area, Street & Landmark</p>
-                         </span>
-                    </div> 
-                    <div>
-                         <input type="text" name="" placeholder="Zip/Postal Code*" class="select">
-                         <input type="text" name="" placeholder="City / District*" class="select">
-                    </div> 
-                    <div> 
-                         <fieldset class="country">
-                              <legend>Country</legent>
-                              <select class="states">
-                                  <option>India</option>
-                                  <option>Andoora</option>
-                                  <option>UAE</option>
-                                  <option>Belgium</option>
-                                  <option>Brazil</option>
-                                  <option>Canada</option>
-                                  <option>China</option>
-                                  <option>Fiji</option>
-                                  <option>France</option>
-                                  <option>Iraq</option>
-                                  <option>Japan</option>
-                                  <option>Kuwait</option>
-                              </select>
-                         </fieldset>
-                    </div>                 
-                </form>
+                    <div class="address">
+                        <p>Shipping Address</p>
+                    </div>
+                    <div class="form">
+                        <form action="" method="post" autocomplete="off">
+                            <button type="submit" value="continue" class="continue">CONTINUE</button>
+                            <div class="name">
+                                <input type="text" name="uname" placeholder="First Name*" class="uname1">
+                                <input type="text" name="uname" placeholder="Last Name*" class="uname2">
+                            </div>
+                            <div class="gender display_flex">
+                                <label class="gndr">Gender <sup>*</sup></label>
+                                <div class="gen">
+                                    <input type="radio" name="gender" checked>
+                                    <label class="male">Male</label>
+                                    <input type="radio" name="gender">
+                                    <label class="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="number display_flex">
+                                <fieldset class="mobile">
+                                    <legend>Mobile <sup>*</sup></legend>
+                                    <input type="tel" name="mobile" placeholder="Mobile" class="contact">
+                                </fieldset>
+                                <fieldset class="mail">
+                                    <legend>Email <sup>*</sup></legend>
+                                    <input type="email" name="" placeholder="Email" class="contact">
+                                </fieldset>
+                            </div>
+                            <div class="line display_flex">
+                                <span>
+                                    <input type="text" name="address" placeholder="Address Line 1*" class="address_line">
+                                    <p>House/Flat Number</p>
+                                </span>
+                                <span>
+                                    <input type="text" name="address" placeholder="Address Line 2" class="address_line">
+                                    <p>Area, Street & Landmark</p>
+                                </span>
+                            </div>
+                            <div class="zip">
+                                <input type="text" name="zip" placeholder="Zip/Postal Code*" class="select1">
+                                <input type="text" name="city" placeholder="City / District*" class="select2">
+                            </div>
+                            <div class="province display_flex">
+                                <fieldset class="country">
+                                    <legend>Country</legend>
+                                    <select class="states">
+                                      <option>India</option>
+                                      <option>Andoora</option>
+                                      <option>UAE</option>
+                                      <option>Belgium</option>
+                                      <option>Brazil</option>
+                                      <option>Canada</option>
+                                      <option>China</option>
+                                      <option>Fiji</option>
+                                      <option>France</option>
+                                      <option>Iraq</option>
+                                      <option>Japan</option>
+                                      <option>Kuwait</option>
+                                    </select>
+                                </fieldset>
+                                <fieldset class="province_state">
+                                    <legend>State/Province</legend>
+                                    <select class="states">
+                                      <option class="show">PLEASE SELECT</option>
+                                      <option>Andaman and Nicobar Islands</option>
+                                      <option>Andhra Pradesh</option>
+                                      <option>Arunanchal Pradesh</option>
+                                      <option>Assam</option>
+                                      <option>Bihar</option>
+                                      <option>Chandigarh</option>
+                                      <option>Chattisgarh</option>
+                                      <option>Daman and Diu</option>
+                                      <option>Delhi</option>
+                                      <option>Goa</option>
+                                      <option>Gujarat</option>
+                                      <option>Hariyana</option>
+                                      <option>Jammu and Kashmir</option>
+                                      <option>Manipur</option>
+                                      <option>Odisha</option>
+                                      <option>Punjab</option>
+                                      <option>Sikkim</option>
+                                      <option>Uttar Pradesh</option>
+                                      <option>Uttarakhand</option>
+                                      <option>West Bengal</option>
+                                      <option>Rajasthan</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <button type="submit" value="continue" class="submit">CONTINUE</button>
+                            <div class="float"></div>
+                        </form>
+                    </div>
+                </div>
+              <!--content-->
+    
+                <div class="shopping_cart">
+                    <div class="cart_top display_flex">
+                        <p>SHOPPING CART</p>
+                        <p class="top">ITEM 2</p>
+                    </div>
+                    <div class="items">
+                        <div class="item1">
+                            <div class="itm display_flex">
+                                <img src="assets/cart3.jpg" alt="not found">
+                                <div class="qty">
+                                    <div class="text">Qty</div>
+                                    <div class="first display_flex">
+                                         <img src="assets/minus1.png" alt="not found">
+                                         <p class="one">1</p>
+                                         <img src="assets/plus1.png" alt="not found">
+                                    </div>
+                                </div>
+                                <div class="close">
+                                    <a class="title" href="login.html">X</a>
+                                </div>
+                            </div>
+                            <div class="price display_flex">
+                                <p>PRODUCT PRICE</p>
+                                <p class="rupee">₹999</p>
+                            </div>
+                        </div>
+                        <div class="item2">
+                            <div class="itm display_flex">
+                                <img src="assets/cart4.jpg" alt="not found">
+                                <div class="qty">
+                                    <div class="text">Qty</div>
+                                    <div class="first display_flex">
+                                         <img src="assets/minus1.png" alt="not found">
+                                         <p class="one">1</p>
+                                         <img src="assets/plus1.png" alt="not found">
+                                    </div>
+                                </div>
+                                <div class="close">
+                                    <a class="title" href="login.html">X</a>
+                                </div>
+                            </div>
+                            <div class="price display_flex">
+                                <p>FRAME PRICE</p>
+                                <p class="rs">₹4000</p>
+                                <p class="rupees">₹3000</p>
+                            </div>
+                        </div>
+                        <div class="package">
+                            <div class="lens_package">
+                                <span>LENS PACKAGE</span>
+                                <span class="zero">₹0</span>
+                            </div>
+                            <p class="bluecut">Bluecut AntiGlare Lens</p>
+                        </div>
+                        <div class="image">
+                            <img src="assets/upto.gif" alt="not found">
+                        </div>
+                        <div class="order">
+                            <div class="total">
+                                <div class="sub_total display_flex">
+                                    <b>SUBTOTAL</b>
+                                    <p class="cost">₹3999</p>
+                                </div>
+                                <div class="amount display_flex">
+                                    <b>NET AMOUNT</b>
+                                    <p class="cost">₹3999</p>
+                                </div>
+                                <div class="tax display_flex">
+                                    <b>TAX COLLECTED</b>
+                                    <img src="assets/question.png" alt="not found">
+                                    <p class="cost">+ ₹719.82</p>
+                                </div>
+                            </div>
+                            <div class="order_total display_flex">
+                                <b>ORDER TOTAL</b>
+                                <p class="order_cost">₹4718.82</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
+</html>
 </html>
