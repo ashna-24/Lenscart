@@ -117,6 +117,10 @@ body{
   background-color:rgb(245, 246, 249);
 }  
 
+.mainTop a{
+  text-decoration: none;
+}
+
 .Glass{
   font-size: 14px;
   color:rgb(179, 179, 179);
@@ -134,6 +138,10 @@ body{
   text-align:center;
   margin: 4px 0px 12px 0px;
 }
+
+.computer{
+  padding-bottom: 12px;
+}  
 
 .content{
   width: 1330px;

@@ -19,12 +19,13 @@ body{
 .lenskart{
   width: 1350px;
   background-color: white;
-  position: fixed;
+  position: sticky;
+  top:0;
   z-index: 1; 
 }
 
 .header{
-  font-size:12px;
+  font-size:11px;
   color: rgb(0, 0, 77);
   margin-top: 8px;
 }
@@ -138,4 +139,335 @@ body{
   width:69px;
   border-radius:5px;
   margin-right:3px;
+}
+
+.top_head{
+  font-size: 10px;
+  color: dimgray;
+  margin-left: 18px;
+  position: relative;
+}
+  
+.place_order{
+  position: absolute;
+  right: 140px;
+}
+
+.call{
+  color: darkslateblue;
+  position: absolute;
+  right: 72px;
+}
+
+.sidebar{
+  width: 260px;
+  position: sticky;
+  height: 1460px;
+  top: 150px;
+  margin: 40px 0px 0px 20px;
+}
+
+.frame_type, .frame_shape{
+  margin-bottom: 30px;
+}
+
+.frame_type h3, .frame_shape h3, .frame_color h3{
+  font-size: 13px;
+  color: rgb(90, 90, 90);
+  margin-bottom: 10px;
+}
+
+.rim{
+  border: 1px solid gainsboro;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  color: grey;
+}
+
+.rim p{
+  text-align: center;
+}
+
+.row1, .row2, .row3{
+  margin-bottom: 7px;
+}
+.colors{
+  font-size: 11px;
+  overflow-y: scroll;
+  height: 370px;
+}
+
+.frame_color{
+  margin-bottom: 20px; 
+}
+
+.select{
+  padding: 5px 0px 10px 0px;
+}
+
+.select input{
+  width: 20px;
+  height: 20px;
+}
+
+.select p{
+  padding-top: 3px;
+  margin-left: 10px;
+  color:  dimgray;
+}
+
+.brands{
+  position: relative;
+  padding: 15px 0px;
+  border-top: 1px solid rgb(213, 213, 213);
+}
+
+.brands h3{
+  font-size: 13px;
+  color: rgb(90, 90, 90);
+  padding-top: 5px;
+}
+
+.brands img{
+  padding: 8px;
+  position: absolute;
+  right: 10px;
+}
+
+.main_content{
+  background-color: rgb(242, 243, 243);
+  margin-top: 30px;
+}
+
+.content_top{
+  padding: 10px;
+}
+
+.content_top p{
+  font-size: 13px;
+  color: rgb(90, 90, 90); 
+  padding-top: 4px;
+}
+
+.content_top h3{
+  padding-top: 4px;
+  font-size: 13px;
+  margin-left: 150px;
+  color: rgb(50, 156, 146);
+}
+
+.view{
+  margin:0px 20px;
+  
+}
+
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 23px;
+  border-radius:34px;
+  background-color:rgb(50, 156, 146);
+}
+
+.slider{
+  position: absolute;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+  width: 23px;
+  height: 23px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.sorting{
+  margin-left: 200px;
+}
+
+.sorting img{
+  padding: 8px 0px;
+}
+
+.sorting h4{
+  font-size: 11px;
+  color: rgb(50, 156, 146);
+  padding: 6px 10px 0px 0px;
+}
+
+.choose{
+  width: 145px;
+  padding: 4px;
+}
+
+.content_list{
+  margin-left: 2px;
+  background-color: white;
+}
+
+.results{
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px 5px 0px;
+}
+
+.set1{
+  margin: 20px 0px 60px 0px;
+}
+
+.lists{
+  width: 315px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 1px solid gainsboro;
+}
+
+.glasses{
+  padding: 20px 15px 8px 15px;
+}
+
+.wishlist{
+  float: right;
+  padding-right: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+.image{
+  max-width: 205px;
+  padding: 10px 0px 30px 35px;
+}
+
+.star{
+  background-color: rgb(238, 238, 245);
+  border-radius: 25px;
+  color: darkblue;
+  font-size: 14px;
+  margin-left: 5px;
+  width: 65px;
+  padding: 7px 0px 8px 15px;
+}
+
+.dark{
+  color: darkblue;
+}
+
+.dark img{
+  padding: 0px 2px;
+}
+
+.light{
+  color: rgb(175, 175, 207);
+}
+
+.large{
+  color: darkblue;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.small{
+  color: rgb(112, 112, 169);
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.rupee{
+  color: darkblue;
+  padding-top: 10px;
+}
+
+.light_tax{
+  color: rgb(175, 175, 207);
+  margin-left: 10px;
+}
+
+.list_foot{
+  background: linear-gradient(90deg, #F7F1DE 0%, rgba( 247, 241, 222, 0) 100%);
+}
+
+.list_foot p{
+  font-size: 13px;
+  padding: 8px 10px;
+  color: #b59a50;
+}
+
+.set{
+  padding-bottom: 60px;
+}
+
+.bottom{
+  width: 1330px;
+  background-color:rgb(0, 0, 77);
+}
+
+.bottomcenter{
+  margin-left:50px;
+  padding:65px 0px 30px 0px;
+  border-bottom: 1px solid rgb(252, 252, 252); 
+}
+
+.services{
+  color: rgb(252, 252, 252);
+  margin-right: 150px;
+}
+
+.servicetop{
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+.services p{
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.services a{
+  text-decoration: none;
+  color: rgb(252, 252, 252); 
+}
+
+.sites{
+  padding-top: 25px;
+}
+
+.sitesimg{
+  margin-left:255px;
+}
+
+.sites p{
+  color:rgb(252, 252, 252);
+  text-align: center;
+  margin: 20px 0px 0px 244px;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.text p:hover{
+  text-decoration: underline;
+  text-decoration-color: steelblue;
+  cursor: pointer;
+}
+
+.footer{
+  color: rgb(252, 252, 252);
+  margin: 25px 0px 0px 50px;
+  font-size:14px;
+  padding-bottom: 20px;
+}
+
+.footer p{
+  padding-right:43px;
+}
+
+.follow{
+  margin-left: 675px;
+  font-size: 18px;
+  padding: 4px 3px 6px 3px;
+}
+
+.follow img{
+  padding-left:12px;
 }
