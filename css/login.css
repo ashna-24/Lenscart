@@ -16,6 +16,10 @@ body{
   display:flex;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .lenskart{
   width: 1350px;
   background-color: white;
@@ -151,6 +155,10 @@ body{
   background-color:rgb(245, 246, 249);
 }  
 
+.mainTop a{
+  text-decoration: none;
+}
+
 .Glass{
   font-size: 14px;
   color:rgb(179, 179, 179);
@@ -160,7 +168,8 @@ body{
 }
 
 .Glass:hover{
-  transform: translateY(-10px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0px;
 }
 
 .Glass img{
@@ -171,6 +180,10 @@ body{
 .Glass p{
   text-align:center;
   margin: 4px 0px 12px 0px;
+}
+
+.computer{
+  padding-bottom: 12px;
 }
 
 .content{
@@ -226,6 +239,10 @@ body{
   font-weight:bold;
   color:rgb(255, 255, 255);
   background-color: rgb(50, 168, 178);
+}
+
+.exp button:hover{
+  background-color:rgb(86, 195, 191);
 }
 
 .text1 h4{

@@ -185,6 +185,10 @@ body{
   color: grey;
 }
 
+.rim:hover{
+  border-color:rgb(90, 90, 90);
+}
+
 .rim p{
   text-align: center;
 }
@@ -238,10 +242,15 @@ body{
 .main_content{
   background-color: rgb(242, 243, 243);
   margin-top: 30px;
+  z-intex: -1;
 }
 
 .content_top{
   padding: 10px;
+  background-color: rgb(242, 243, 243);
+  position: sticky;
+  top: 134px;
+  z-index: 1;
 }
 
 .content_top p{
@@ -302,23 +311,36 @@ body{
 .content_list{
   margin-left: 2px;
   background-color: white;
+  padding-bottom: 1px;
 }
 
 .results{
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px 0px 5px 0px;
+  background-color: white;
+  color: darkslategray;
+  position: sticky;
+  top: 180px;
 }
 
 .set1{
   margin: 20px 0px 60px 0px;
 }
 
+.set1 a{
+  text-decoration: none;
+}
+
 .lists{
-  width: 315px;
+  width: 320px;
   margin-left: 15px;
   border-radius: 8px;
   border: 1px solid gainsboro;
+}
+
+.lists:hover{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 10%);
 }
 
 .glasses{
@@ -371,6 +393,66 @@ body{
   color: rgb(112, 112, 169);
   padding-top: 10px;
   font-size: 13px;
+}
+
+.choice{
+  padding: 7px 0px 0px 55px;
+}
+
+.color1{
+  margin-right: 5px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50px;
+}
+
+.choice p{
+  color: rgb(112, 112, 169);
+  font-size: 13px;
+}
+
+.black{
+  background-color: black;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.gray{
+  background-color: gray;
+} 
+
+.slategray{
+  background-color: slategray;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.maroon{
+  background-color: maroon;
+}
+
+.lightgreen{
+  background-color: lightgreen;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.brown{
+  background-color: brown;
+}
+
+.gold{
+  background-color: gold;
+}
+
+.lightpink{
+  background-color: lightpink;
 }
 
 .rupee{

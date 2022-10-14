@@ -1,0 +1,313 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+  font-family: myFont;
+}
+
+@font-face{
+  font-family:myFont;
+  src: url("../assets/font/Aileron-Regular.otf");
+}
+
+.display_flex{
+  display:flex;
+}
+
+.lenskart{
+  width: 1350px;
+  background-color: white;
+  position: fixed;
+  z-index: 1; 
+}
+
+.header{
+  font-size:12px;
+  color: rgb(0, 0, 77);
+  margin-top: 8px;
+}
+
+.more{
+  padding-right:8px;
+}
+
+.top{
+  border-left: 1px solid black;
+  padding: 0px 8px;
+}
+
+.head{
+  padding: 10px 0px 0px 7px;
+}
+
+.logo{
+  margin-left:15px;
+}
+
+.logo img{
+  max-width:180px;
+}
+
+.search img{
+  max-width:130px;
+  margin:0px 20px 0px 50px;
+}
+
+.search input{
+  margin:15px 0px;
+  width:575px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgb(0, 0, 77);
+}
+
+.headRight{
+  margin: 25px 0px 0px 65px;
+  font-size: 14px;
+}
+
+.arrow{
+  padding-bottom:18px;
+  margin-right: 10px;
+}
+
+.name{
+  margin-right:0px;
+}
+
+.order{
+  margin-right:25px;
+  cursor: pointer;
+}
+
+.order1{
+  position: relative;
+}
+
+.num{
+  position: absolute;
+  left: 10px;
+  bottom: 28px;
+  border-radius: 50px;
+  color: white;
+  padding: 1px 5px;
+  background-color: rgb(50, 156, 146);
+  font-size:smaller;
+}
+
+.cart2{
+  margin-left: 7px;
+}
+
+.headRight a{
+  text-decoration: none;
+  color: black;
+}
+
+.headRight img{
+  max-width: 16px;
+}
+
+.cart1{
+  margin-left:5px;
+}
+
+.headBottom{
+ background-color:rgb(253, 251, 250);
+}
+
+.left{
+  padding:12px;
+}
+
+.left p{
+  font-size: 15px;
+  padding:10px;
+  color:rgb(0, 0, 77);
+}
+
+.right{
+  padding:15px;
+  margin-left:85px;
+}
+
+.right img{
+  width:69px;
+  border-radius:5px;
+  margin-right:3px;
+}
+
+.main{
+  padding-top: 158px;
+}
+
+.main_top{
+  font-size: 10px;
+  color: dimgray;
+  margin-left: 18px;
+  position: relative;
+}
+  
+.place_order{
+  position: absolute;
+  right: 140px;
+}
+
+.call{
+  color: darkslateblue;
+  position: absolute;
+  right: 72px;
+}
+
+.images{
+  margin: 30px 0px 0px 25px;
+}
+
+.each_view{
+  padding-bottom: 22px;
+}
+
+.view1{
+  position: relative;
+  margin-right: 25px;
+}
+
+.view1 img{
+  max-width: 418px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 8px;
+}
+
+.view360{
+  position: absolute;
+  width: 60px;
+  right:0;
+}
+
+.review{
+  margin: 30px 0px 0px 5px;
+}
+
+.about_glass{
+  margin-bottom: 25px;
+}
+
+.blue_glass{
+  width: 280px;
+}
+
+.lens{
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+}
+
+.about{
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.size p{
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+}
+
+.size img{
+  padding-left: 3px;
+}
+
+.rupee{
+  font-size: 20px;
+  padding: 15px 0px 25px 0px;
+  font-weight: bolder;
+  color: rgb(50, 156, 146);
+}
+
+.circle{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  border: 2px solid gray;
+}
+
+.black{
+  background-color: black;
+  border-radius: 50px;
+  width: 23px;
+  height: 23px;
+  margin: 1px 0px 0px 1px;
+}
+
+.wishlist{
+  padding-left: 75px;
+}
+
+.buy{
+  width: 385px;
+  padding: 15px 0px;
+  background-color: rgb(0, 186, 198);
+  border: none;
+  border-radius: 4px;
+}
+
+.buy a{
+  text-decoration: none;
+  color: white;
+}
+
+.tryon{
+  position: relative;
+}
+
+.tryon button{
+  margin-top: 25px;
+  background-color: white;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid rgb(228, 232, 231);
+  width: 385px;
+  padding: 15px 80px 15px 0px;
+}
+
+.tryon img{
+  position: absolute;
+  right: 60px;
+  top: 12px;
+}
+
+.info{
+  margin-top: 40px;
+}
+
+.tech_info{
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  padding: 20px  0px 15px 0px;
+  font-size: 13px;
+  font-weight: bold;
+  color: dimgray;
+  width: 385px;
+}
+
+.tech_info img{
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+}
+
+.examples{
+  margin-top: 20px;
+}
+ 
+.examples img{
+  width: 385px;
+} 
