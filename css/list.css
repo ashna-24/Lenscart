@@ -16,8 +16,12 @@ body{
   display:flex;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .lenskart{
-  width: 1350px;
+  width: 1349px;
   background-color: white;
   position: sticky;
   top:0;
@@ -161,6 +165,7 @@ body{
 
 .sidebar{
   width: 260px;
+  cursor: all-scroll;
   position: sticky;
   height: 1460px;
   top: 150px;
@@ -300,12 +305,15 @@ body{
 .sorting h4{
   font-size: 11px;
   color: rgb(50, 156, 146);
-  padding: 6px 10px 0px 0px;
+  padding: 7px 10px 0px 0px;
 }
 
 .choose{
   width: 145px;
   padding: 4px;
+  border: 1px solid gainsboro;
+  color: gray;
+  font-size: 12px;
 }
 
 .content_list{
@@ -322,6 +330,7 @@ body{
   color: darkslategray;
   position: sticky;
   top: 180px;
+  z-index: 1;
 }
 
 .set1{
@@ -356,9 +365,23 @@ body{
   clear: both;
 }
 
-.image{
+.background_img{
   max-width: 205px;
   padding: 10px 0px 30px 35px;
+  position: relative;
+  display: inline-block;
+}
+
+.background_img .image_top{
+  display: none;
+  position: absolute;
+  top:10px;
+  left: 35px;
+  z-index: 99;
+}
+
+.background_img:hover .image_top{
+  display: inline;
 }
 
 .star{
